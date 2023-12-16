@@ -18,15 +18,15 @@
           Click here to add a new task:
         </p>
         <button class="addnewtask">Add a new task</button>
-        <form action="#" class="addnewtaskform">
-          <label for="addnewtaskinput">Enter your task here</label>
-          <input type="text" class="addnewtaskinput" id="addnewtaskinput" placeholder="What do you want to do?">
+        <form action="#" class="addnewtaskform" id="myForm">
+          <label for="newItem">Enter your task here</label>
+          <input type="text" class="addnewtaskinput" id="newItem" placeholder="What do you want to do?" value="New Task">
           <button type="submit" id="addnewtasksubmit
           ">Add a task</button>
           <button type="submit" id="cancelAdding">Cancel</button>
         </form>
       </div>
-      <div class="list-group">
+      <div class="list-group" id="labelList">
   <label class="list-group-item">
     <input class="form-check-input me-1" type="checkbox">
     Cras justo odio
