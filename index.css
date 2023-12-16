@@ -9,3 +9,7 @@ h1 {
     color: white;
     height: 150px;
 }
+
+.addnewtaskform {
+    display: none;
+}
