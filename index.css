@@ -19,6 +19,10 @@ main {
   position: relative;
 }
 
+.addtaskprompt {
+  padding-top: 20px;
+}
+
 body {
     background-color: #869bee;
 }
@@ -27,8 +31,13 @@ body {
     display: none;
 }
 
+.addabutton {
+  margin-left: 30px;
+}
+
 .list-group, #labelList {
   overflow: scroll;
+  margin: 40px;
 }
 
 .list-group, #labelList, .list-group-item {
@@ -40,13 +49,13 @@ body {
 }
 
 button {
-  height: 25px;
+  height: 30px;
   width: 100px;
   cursor: pointer;
   font-weight: 600;
   font-size: 15px;
   border: 2px solid #0c0c96;
-  border-radius: 5px;
+  border-radius: 50px;
   color: #F8F8F8;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px -2px 2px rgba(255, 255, 255, 0.5) inset, 0 2px 2px rgba(255, 255, 255, 0.8) inset;
   background: linear-gradient(rgb(34, 17, 221), #0e31bc);
@@ -75,4 +84,14 @@ button:active {
 
 #newItem:hover {
     border-bottom: 2px solid purple;
+}
+
+.addnewtask {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.me-1 {
+  margin-left: 10px;
 }
