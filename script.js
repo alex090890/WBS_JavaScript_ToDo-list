@@ -31,15 +31,11 @@ function createEditDeleteButtons(label) {
 
   // Event listener for Edit button
   editButton.addEventListener('click', function() {
-    // Logic for editing the task
-    // You can implement your editing functionality here
-    console.log('Edit task:', label.textContent);
+
   });
 
   // Event listener for Delete button
   deleteButton.addEventListener('click', function() {
-    // Logic for deleting the task
-    // Remove the label when Delete is clicked
     label.remove();
   });
 
